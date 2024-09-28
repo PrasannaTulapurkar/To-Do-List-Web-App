@@ -1,0 +1,104 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.heading {
+  color: white;
+  border-radius: 15px;
+}
+
+h1 {
+  background-color: #015418;
+  color: #eee5e5;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 600;
+  font-size: 36px; 
+  letter-spacing: 1px;
+}
+
+/* Table Styles */
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #a0d49c;
+}
+
+.task-table th, .task-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-table th {
+  background-color: #015418;
+  color: white;
+}
+
+.task-row:hover {
+  background-color: #9ddca0;
+}
+
+/* Buttons and Actions */
+button {
+  background-color: #a72828;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.add-task-button {
+  background-color: #015418; 
+  color: white; 
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.add-task-button:hover {
+  background-color: #04972e;
+}
+
+.refresh-button {
+  background-color: #04972e; 
+  color: white; 
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  background-color: #015418; 
+}
+
+/* Search bar */
+.search-bar {
+  padding: 5px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 8px;
+  border-width: 4px;
+  height: 44px;
+  margin-right: 25%;
+}
+
